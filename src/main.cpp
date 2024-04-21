@@ -53,6 +53,13 @@ int main()
     {
         std::cout << "Socket bound to port.\n";
     }
+    
+    //Set the socket to re-use the port.
+    int reuse = 1; //1 = yes, 0 = no
+    if(setsockopt(socketfd, SOL_SOCKET, SO_REUSEADDR, &reuse, sizeof(reuse)) == -1)
+    {
+        std::cout << "Failed setting option: reuse socket\n";
+    }
 
     freeaddrinfo(serverInfo);
     return 0;
