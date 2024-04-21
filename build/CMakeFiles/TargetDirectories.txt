@@ -1,0 +1,4 @@
+/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/mrmollusc.dir
+/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/run.dir
+/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/edit_cache.dir
+/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/rebuild_cache.dir
