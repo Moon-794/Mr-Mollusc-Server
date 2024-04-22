@@ -61,6 +61,15 @@ int main()
         std::cout << "Failed setting option: reuse socket\n";
     }
     
+    if(listen(socketfd, 5) == -1)
+    {
+        std::cout << "Socket error encountered while attempting to listen\n";
+    }
+    else
+    {
+        std::cout << "Socket is now listening...\n";
+    }
+
     freeaddrinfo(serverInfo);
     return 0;
 }
