@@ -60,7 +60,7 @@ int main()
     {
         std::cout << "Failed setting option: reuse socket\n";
     }
-
+    
     freeaddrinfo(serverInfo);
     return 0;
 }
