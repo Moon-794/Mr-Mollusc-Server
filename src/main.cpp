@@ -12,6 +12,10 @@ int main()
 {
     struct addrinfo hints;
     struct addrinfo* serverInfo;
+    
+    int clientfd;    
+    struct sockaddr_storage clientaddr;
+    socklen_t clientaddrsize;
 
     memset(&hints, 0, sizeof(hints));
     hints.ai_family = AF_UNSPEC;
@@ -69,6 +73,10 @@ int main()
     {
         std::cout << "Socket is now listening...\n";
     }
+
+    clientaddrsize = sizeof(clientaddr);
+    clientfd = accept(socketfd, (sockaddr*)&clientaddr, &clientaddrsize);
+    std::cout << clientfd << "\n";
 
     freeaddrinfo(serverInfo);
     return 0;
