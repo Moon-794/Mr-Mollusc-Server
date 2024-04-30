@@ -5,11 +5,23 @@
 #include <netdb.h>
 #include <cstring>
 #include <iostream>
+#include <pthread.h>
+#include <vector>
 
 #include <errno.h>
 
+void* handle_client(void* client_socket)
+{
+    int client = *(int*)client_socket;
+
+    std::cout << "Created a client thread containing the socketfd!\n";
+    pthread_exit(NULL);
+}
+
 int main()
 {
+    std::vector<int> threads;
+
     struct addrinfo hints;
     struct addrinfo* serverInfo;
     
@@ -34,7 +46,7 @@ int main()
         std::cout << "Failed to retrieve address info...\n";
         return -1;
     }
-    
+
     int socketfd = socket(serverInfo->ai_family, serverInfo->ai_socktype, serverInfo->ai_protocol);
     
     if(socketfd == -1)
@@ -75,11 +87,21 @@ int main()
     }
 
     clientaddrsize = sizeof(clientaddr);
-    clientfd = accept(socketfd, (sockaddr*)&clientaddr, &clientaddrsize);
-    std::cout << clientfd << "\n";
+    while(true)
+    {
+        clientfd = accept(socketfd, (sockaddr*)&clientaddr, &clientaddrsize);
+        if(clientfd == -1)
+        {
+            //Report error and drop socket
+            std::cout << "Error accepting client connection\n";
+            continue;
+        }
+
+       pthread_t clientThread;
+       threads.push_back(pthread_create(&clientThread, NULL, &handle_client, &clientfd));
+       
+    }
 
     freeaddrinfo(serverInfo);
     return 0;
 }
-
-
