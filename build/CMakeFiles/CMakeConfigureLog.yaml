@@ -7,7 +7,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:233 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Linux - 6.6.26-1-MANJARO - x86_64
+      The system is: Linux - 6.5.3-1-MANJARO - x86_64
   -
     kind: "message-v1"
     backtrace:
@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/3.28.3/CompilerIdC/a.out
+        /home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/3.28.3/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+        /home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-PYq2tp"
-      binary: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-PYq2tp"
+      source: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-AqDdAf"
+      binary: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-AqDdAf"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -70,13 +70,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-PYq2tp'
+        Change Dir: '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-AqDdAf'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d4a5a/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_d4a5a.dir/build.make CMakeFiles/cmTC_d4a5a.dir/build
-        make[1]: Entering directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-PYq2tp'
-        Building C object CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7492c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7492c.dir/build.make CMakeFiles/cmTC_7492c.dir/build
+        make[1]: Entering directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-AqDdAf'
+        Building C object CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: x86_64-pc-linux-gnu
@@ -84,8 +84,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4a5a.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d4a5a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccwSTzSx.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7492c.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7492c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccKunyel.s
         GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -99,15 +99,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: eb0b45108af02c02a078961940bce3e9
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4a5a.dir/'
-         as -v --64 -o CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o /tmp/ccwSTzSx.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7492c.dir/'
+         as -v --64 -o CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o /tmp/ccKunyel.s
         GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_d4a5a
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4a5a.dir/link.txt --verbose=1
-        /usr/bin/cc  -v CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o -o cmTC_d4a5a 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_7492c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7492c.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o -o cmTC_7492c 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -118,10 +118,10 @@ events:
         gcc version 13.2.1 20230801 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4a5a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d4a5a.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccySBKqd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d4a5a /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4a5a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d4a5a.'
-        make[1]: Leaving directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-PYq2tp'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7492c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7492c.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccspmZGX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7492c /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7492c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7492c.'
+        make[1]: Leaving directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-AqDdAf'
         
       exitCode: 0
   -
@@ -155,13 +155,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-PYq2tp']
+        ignore line: [Change Dir: '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-AqDdAf']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d4a5a/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_d4a5a.dir/build.make CMakeFiles/cmTC_d4a5a.dir/build]
-        ignore line: [make[1]: Entering directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-PYq2tp']
-        ignore line: [Building C object CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7492c/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_7492c.dir/build.make CMakeFiles/cmTC_7492c.dir/build]
+        ignore line: [make[1]: Entering directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-AqDdAf']
+        ignore line: [Building C object CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -169,8 +169,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4a5a.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d4a5a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccwSTzSx.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7492c.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7492c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccKunyel.s]
         ignore line: [GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -184,15 +184,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: eb0b45108af02c02a078961940bce3e9]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4a5a.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o /tmp/ccwSTzSx.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7492c.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o /tmp/ccKunyel.s]
         ignore line: [GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_d4a5a]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4a5a.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o -o cmTC_d4a5a ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_7492c]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7492c.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o -o cmTC_7492c ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -203,13 +203,13 @@ events:
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4a5a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d4a5a.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccySBKqd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d4a5a /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7492c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7492c.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccspmZGX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7492c /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccySBKqd.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccspmZGX.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -224,7 +224,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_d4a5a] ==> ignore
+          arg [cmTC_7492c] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
@@ -233,7 +233,7 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-          arg [CMakeFiles/cmTC_d4a5a.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_7492c.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -270,8 +270,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-wzYpZp"
-      binary: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-wzYpZp"
+      source: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-ItTCAg"
+      binary: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-ItTCAg"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -279,13 +279,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-wzYpZp'
+        Change Dir: '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-ItTCAg'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4ec1e/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_4ec1e.dir/build.make CMakeFiles/cmTC_4ec1e.dir/build
-        make[1]: Entering directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-wzYpZp'
-        Building CXX object CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_db4a5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_db4a5.dir/build.make CMakeFiles/cmTC_db4a5.dir/build
+        make[1]: Entering directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-ItTCAg'
+        Building CXX object CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -293,8 +293,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4ec1e.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4ec1e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccTLWHuN.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db4a5.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_db4a5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccqrduIQ.s
         GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -311,15 +311,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: f089b864c6bcbc2427e9850aa6414a11
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4ec1e.dir/'
-         as -v --64 -o CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccTLWHuN.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db4a5.dir/'
+         as -v --64 -o CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccqrduIQ.s
         GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_4ec1e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ec1e.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4ec1e 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_db4a5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db4a5.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_db4a5 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -330,10 +330,10 @@ events:
         gcc version 13.2.1 20230801 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4ec1e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4ec1e.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7zLwkK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4ec1e /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4ec1e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4ec1e.'
-        make[1]: Leaving directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-wzYpZp'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_db4a5' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_db4a5.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc78MuVb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_db4a5 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_db4a5' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_db4a5.'
+        make[1]: Leaving directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-ItTCAg'
         
       exitCode: 0
   -
@@ -373,13 +373,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-wzYpZp']
+        ignore line: [Change Dir: '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-ItTCAg']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4ec1e/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_4ec1e.dir/build.make CMakeFiles/cmTC_4ec1e.dir/build]
-        ignore line: [make[1]: Entering directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-wzYpZp']
-        ignore line: [Building CXX object CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_db4a5/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_db4a5.dir/build.make CMakeFiles/cmTC_db4a5.dir/build]
+        ignore line: [make[1]: Entering directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-ItTCAg']
+        ignore line: [Building CXX object CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -387,8 +387,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4ec1e.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4ec1e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccTLWHuN.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db4a5.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_db4a5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccqrduIQ.s]
         ignore line: [GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -405,15 +405,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: f089b864c6bcbc2427e9850aa6414a11]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4ec1e.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccTLWHuN.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db4a5.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccqrduIQ.s]
         ignore line: [GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_4ec1e]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ec1e.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4ec1e ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_db4a5]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db4a5.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_db4a5 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -424,13 +424,13 @@ events:
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4ec1e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4ec1e.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7zLwkK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4ec1e /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_db4a5' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_db4a5.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc78MuVb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_db4a5 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc7zLwkK.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc78MuVb.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -445,7 +445,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_4ec1e] ==> ignore
+          arg [cmTC_db4a5] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
@@ -454,7 +454,7 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-          arg [CMakeFiles/cmTC_4ec1e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_db4a5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -487,8 +487,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so"
     directories:
-      source: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-vtJ3iM"
-      binary: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-vtJ3iM"
+      source: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-7uzDmo"
+      binary: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-7uzDmo"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -496,17 +496,17 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-vtJ3iM'
+        Change Dir: '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-7uzDmo'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_03d9e/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_03d9e.dir/build.make CMakeFiles/cmTC_03d9e.dir/build
-        make[1]: Entering directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-vtJ3iM'
-        Building C object CMakeFiles/cmTC_03d9e.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_03d9e.dir/CheckFunctionExists.c.o -c /home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-vtJ3iM/CheckFunctionExists.c
-        Linking C executable cmTC_03d9e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03d9e.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_03d9e.dir/CheckFunctionExists.c.o -o cmTC_03d9e  /usr/lib/libX11.so /usr/lib/libXext.so 
-        make[1]: Leaving directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-vtJ3iM'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ff2f8/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ff2f8.dir/build.make CMakeFiles/cmTC_ff2f8.dir/build
+        make[1]: Entering directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-7uzDmo'
+        Building C object CMakeFiles/cmTC_ff2f8.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_ff2f8.dir/CheckFunctionExists.c.o -c /home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-7uzDmo/CheckFunctionExists.c
+        Linking C executable cmTC_ff2f8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff2f8.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_ff2f8.dir/CheckFunctionExists.c.o -o cmTC_ff2f8  /usr/lib/libX11.so /usr/lib/libXext.so 
+        make[1]: Leaving directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-7uzDmo'
         
       exitCode: 0
   -
@@ -518,8 +518,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-XHxonL"
-      binary: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-XHxonL"
+      source: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-1PT6Gu"
+      binary: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-1PT6Gu"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -527,17 +527,17 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-XHxonL'
+        Change Dir: '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-1PT6Gu'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5daa1/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_5daa1.dir/build.make CMakeFiles/cmTC_5daa1.dir/build
-        make[1]: Entering directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-XHxonL'
-        Building C object CMakeFiles/cmTC_5daa1.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_5daa1.dir/CheckFunctionExists.c.o -c /home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-XHxonL/CheckFunctionExists.c
-        Linking C executable cmTC_5daa1
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5daa1.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_5daa1.dir/CheckFunctionExists.c.o -o cmTC_5daa1 
-        make[1]: Leaving directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-XHxonL'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4875e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4875e.dir/build.make CMakeFiles/cmTC_4875e.dir/build
+        make[1]: Entering directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-1PT6Gu'
+        Building C object CMakeFiles/cmTC_4875e.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_4875e.dir/CheckFunctionExists.c.o -c /home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-1PT6Gu/CheckFunctionExists.c
+        Linking C executable cmTC_4875e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4875e.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_4875e.dir/CheckFunctionExists.c.o -o cmTC_4875e 
+        make[1]: Leaving directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-1PT6Gu'
         
       exitCode: 0
   -
@@ -549,8 +549,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-6BZKhr"
-      binary: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-6BZKhr"
+      source: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-bIRXh5"
+      binary: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-bIRXh5"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -558,17 +558,17 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-6BZKhr'
+        Change Dir: '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-bIRXh5'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8dee6/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_8dee6.dir/build.make CMakeFiles/cmTC_8dee6.dir/build
-        make[1]: Entering directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-6BZKhr'
-        Building C object CMakeFiles/cmTC_8dee6.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_8dee6.dir/CheckFunctionExists.c.o -c /home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-6BZKhr/CheckFunctionExists.c
-        Linking C executable cmTC_8dee6
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dee6.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_8dee6.dir/CheckFunctionExists.c.o -o cmTC_8dee6 
-        make[1]: Leaving directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-6BZKhr'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_26008/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_26008.dir/build.make CMakeFiles/cmTC_26008.dir/build
+        make[1]: Entering directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-bIRXh5'
+        Building C object CMakeFiles/cmTC_26008.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_26008.dir/CheckFunctionExists.c.o -c /home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-bIRXh5/CheckFunctionExists.c
+        Linking C executable cmTC_26008
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26008.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_26008.dir/CheckFunctionExists.c.o -o cmTC_26008 
+        make[1]: Leaving directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-bIRXh5'
         
       exitCode: 0
   -
@@ -580,8 +580,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-G2Ime1"
-      binary: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-G2Ime1"
+      source: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-XteCzE"
+      binary: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-XteCzE"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -589,17 +589,17 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-G2Ime1'
+        Change Dir: '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-XteCzE'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e808a/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_e808a.dir/build.make CMakeFiles/cmTC_e808a.dir/build
-        make[1]: Entering directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-G2Ime1'
-        Building C object CMakeFiles/cmTC_e808a.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_e808a.dir/CheckFunctionExists.c.o -c /home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-G2Ime1/CheckFunctionExists.c
-        Linking C executable cmTC_e808a
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e808a.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_e808a.dir/CheckFunctionExists.c.o -o cmTC_e808a 
-        make[1]: Leaving directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-G2Ime1'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c3f65/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c3f65.dir/build.make CMakeFiles/cmTC_c3f65.dir/build
+        make[1]: Entering directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-XteCzE'
+        Building C object CMakeFiles/cmTC_c3f65.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_c3f65.dir/CheckFunctionExists.c.o -c /home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-XteCzE/CheckFunctionExists.c
+        Linking C executable cmTC_c3f65
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3f65.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_c3f65.dir/CheckFunctionExists.c.o -o cmTC_c3f65 
+        make[1]: Leaving directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-XteCzE'
         
       exitCode: 0
   -
@@ -611,8 +611,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-Y7EKKZ"
-      binary: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-Y7EKKZ"
+      source: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-Vim9Fm"
+      binary: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-Vim9Fm"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -620,17 +620,17 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-Y7EKKZ'
+        Change Dir: '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-Vim9Fm'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8774f/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_8774f.dir/build.make CMakeFiles/cmTC_8774f.dir/build
-        make[1]: Entering directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-Y7EKKZ'
-        Building C object CMakeFiles/cmTC_8774f.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_8774f.dir/CheckFunctionExists.c.o -c /home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-Y7EKKZ/CheckFunctionExists.c
-        Linking C executable cmTC_8774f
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8774f.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_8774f.dir/CheckFunctionExists.c.o -o cmTC_8774f 
-        make[1]: Leaving directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-Y7EKKZ'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6bf2b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6bf2b.dir/build.make CMakeFiles/cmTC_6bf2b.dir/build
+        make[1]: Entering directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-Vim9Fm'
+        Building C object CMakeFiles/cmTC_6bf2b.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_6bf2b.dir/CheckFunctionExists.c.o -c /home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-Vim9Fm/CheckFunctionExists.c
+        Linking C executable cmTC_6bf2b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bf2b.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_6bf2b.dir/CheckFunctionExists.c.o -o cmTC_6bf2b 
+        make[1]: Leaving directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-Vim9Fm'
         
       exitCode: 0
   -
@@ -642,8 +642,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-zgaYEO"
-      binary: "/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-zgaYEO"
+      source: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-xyWDBs"
+      binary: "/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-xyWDBs"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -651,17 +651,17 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-zgaYEO'
+        Change Dir: '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-xyWDBs'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7c3af/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_7c3af.dir/build.make CMakeFiles/cmTC_7c3af.dir/build
-        make[1]: Entering directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-zgaYEO'
-        Building C object CMakeFiles/cmTC_7c3af.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_7c3af.dir/CheckFunctionExists.c.o -c /home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-zgaYEO/CheckFunctionExists.c
-        Linking C executable cmTC_7c3af
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c3af.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_7c3af.dir/CheckFunctionExists.c.o -o cmTC_7c3af  -lICE 
-        make[1]: Leaving directory '/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-zgaYEO'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9259d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_9259d.dir/build.make CMakeFiles/cmTC_9259d.dir/build
+        make[1]: Entering directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-xyWDBs'
+        Building C object CMakeFiles/cmTC_9259d.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_9259d.dir/CheckFunctionExists.c.o -c /home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-xyWDBs/CheckFunctionExists.c
+        Linking C executable cmTC_9259d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9259d.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_9259d.dir/CheckFunctionExists.c.o -o cmTC_9259d  -lICE 
+        make[1]: Leaving directory '/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/CMakeScratch/TryCompile-xyWDBs'
         
       exitCode: 0
 ...

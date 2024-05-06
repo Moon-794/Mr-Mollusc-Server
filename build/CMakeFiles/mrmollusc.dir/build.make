@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/connor/Documents/Mr-Mollusc-Server/build
+CMAKE_SOURCE_DIR = /home/moon/Documents/Mr-Mollusc-Server/build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/connor/Documents/Mr-Mollusc-Server/build
+CMAKE_BINARY_DIR = /home/moon/Documents/Mr-Mollusc-Server/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mrmollusc.dir/depend.make
@@ -69,38 +69,36 @@ include CMakeFiles/mrmollusc.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mrmollusc.dir/flags.make
 
-CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.o: CMakeFiles/mrmollusc.dir/flags.make
-CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.o: /home/connor/Documents/Mr-Mollusc-Server/src/main.cpp
-CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.o: CMakeFiles/mrmollusc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.o -MF CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.o.d -o CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.o -c /home/connor/Documents/Mr-Mollusc-Server/src/main.cpp
+CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.o: CMakeFiles/mrmollusc.dir/flags.make
+CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.o: /home/moon/Documents/Mr-Mollusc-Server/src/main.cpp
+CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.o: CMakeFiles/mrmollusc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.o -MF CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.o.d -o CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.o -c /home/moon/Documents/Mr-Mollusc-Server/src/main.cpp
 
-CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/connor/Documents/Mr-Mollusc-Server/src/main.cpp > CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.i
+CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moon/Documents/Mr-Mollusc-Server/src/main.cpp > CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.i
 
-CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/connor/Documents/Mr-Mollusc-Server/src/main.cpp -o CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.s
+CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moon/Documents/Mr-Mollusc-Server/src/main.cpp -o CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.s
 
 # Object files for target mrmollusc
 mrmollusc_OBJECTS = \
-"CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.o"
+"CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.o"
 
 # External object files for target mrmollusc
 mrmollusc_EXTERNAL_OBJECTS =
 
-bin/mrmollusc: CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.o
+bin/mrmollusc: CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.o
 bin/mrmollusc: CMakeFiles/mrmollusc.dir/build.make
 bin/mrmollusc: /usr/lib/libSM.so
 bin/mrmollusc: /usr/lib/libICE.so
 bin/mrmollusc: /usr/lib/libX11.so
 bin/mrmollusc: /usr/lib/libXext.so
 bin/mrmollusc: CMakeFiles/mrmollusc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/mrmollusc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/mrmollusc"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mrmollusc.dir/link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Running Program..."
-	./bin/mrmollusc
 
 # Rule to build all files generated by this target.
 CMakeFiles/mrmollusc.dir/build: bin/mrmollusc
@@ -111,6 +109,6 @@ CMakeFiles/mrmollusc.dir/clean:
 .PHONY : CMakeFiles/mrmollusc.dir/clean
 
 CMakeFiles/mrmollusc.dir/depend:
-	cd /home/connor/Documents/Mr-Mollusc-Server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/connor/Documents/Mr-Mollusc-Server/build /home/connor/Documents/Mr-Mollusc-Server/build /home/connor/Documents/Mr-Mollusc-Server/build /home/connor/Documents/Mr-Mollusc-Server/build /home/connor/Documents/Mr-Mollusc-Server/build/CMakeFiles/mrmollusc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/moon/Documents/Mr-Mollusc-Server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moon/Documents/Mr-Mollusc-Server/build /home/moon/Documents/Mr-Mollusc-Server/build /home/moon/Documents/Mr-Mollusc-Server/build /home/moon/Documents/Mr-Mollusc-Server/build /home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/mrmollusc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mrmollusc.dir/depend
 

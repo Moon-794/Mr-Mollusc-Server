@@ -1,1 +1,1 @@
-/usr/bin/c++ "CMakeFiles/mrmollusc.dir/home/connor/Documents/Mr-Mollusc-Server/src/main.cpp.o" -o bin/mrmollusc  /usr/lib/libSM.so /usr/lib/libICE.so /usr/lib/libX11.so /usr/lib/libXext.so 
+/usr/bin/c++ "CMakeFiles/mrmollusc.dir/home/moon/Documents/Mr-Mollusc-Server/src/main.cpp.o" -o bin/mrmollusc  /usr/lib/libSM.so /usr/lib/libICE.so /usr/lib/libX11.so /usr/lib/libXext.so 
