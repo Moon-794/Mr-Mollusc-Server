@@ -23,12 +23,13 @@ The two main inspirations for this game are 2 other MMOs. Old School Runescapea 
 [3.0] Skills
 
 I would like skills to be both plentiful and grindy, EU has like a million skills which is far too much, but I
-like the idea that it's not really expected to max a skill.
+like the idea that it's not really expected to max a skill because it would realistically take so long.
 
 A skills max level will be capped at 255. There will be less unlocks/level due to it just being too much content,
-but an emphasis on incremental stat boosts to skill related activities would be nice.
+but an emphasis on incremental stat boosts to skill related activities would be nice, and serve as a way to continue 
+training despite having technically "unlocked" everything.
 
-Experience to level will follow OSRS and be exponential, however probably not to the same "doubling every 7 levels" extent.
+Experience to level will follow OSRS and be exponential, however probably not to the same "doubling every 7 levels" extent, as that would be far too much.
 
 [3.1] List of Skills
 
@@ -38,11 +39,12 @@ Experience to level will follow OSRS and be exponential, however probably not to
     > Long Blade
 
 > 2 Handed Melee
-    > Axe
+    > Axe (Maybe specific weapon types? 1 handed melee would have to be similar though)
 
 > Ranged Weapons
     > Ballistic
     > Laser
+    > Plasma
 
 > Mining
 > Geology

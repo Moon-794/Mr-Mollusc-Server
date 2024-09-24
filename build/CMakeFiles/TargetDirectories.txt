@@ -1,3 +1,3 @@
-/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/mrmollusc.dir
-/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/edit_cache.dir
-/home/moon/Documents/Mr-Mollusc-Server/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Martin/Desktop/Mr-Mollusc-Server/build/CMakeFiles/mrmollusc.dir
+C:/Users/Martin/Desktop/Mr-Mollusc-Server/build/CMakeFiles/edit_cache.dir
+C:/Users/Martin/Desktop/Mr-Mollusc-Server/build/CMakeFiles/rebuild_cache.dir
