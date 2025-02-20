@@ -1,8 +1,14 @@
 #include <iostream>
-#include "curses.h"
+#include <QApplication>
+#include <QPushButton>
 
 int main(int argc, char** args)
 {
-    std::cout << "Hello, World!" << std::endl;
+    QApplication app(argc, args);
+
+    QPushButton button("Hello, World!");
+    button.resize(200, 100);
+    button.show();
+
     return 0;
 }
